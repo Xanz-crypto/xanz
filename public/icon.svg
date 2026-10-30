@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f111a" />
+      <stop offset="100%" stop-color="#050608" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="50%" stop-color="#e11d48" />
+      <stop offset="100%" stop-color="#881337" />
+    </linearGradient>
+    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#a5f3fc" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)" />
+  <rect width="504" height="504" x="4" y="4" rx="106" stroke="#f43f5e" stroke-width="3" stroke-opacity="0.3" fill="none" />
+  
+  <!-- Outer Shield Aura -->
+  <polygon points="256,60 410,135 385,340 256,445 127,340 102,135" fill="none" stroke="#f43f5e" stroke-width="8" stroke-dasharray="16 8" opacity="0.6" />
+  
+  <!-- Main Shield -->
+  <polygon points="256,76 394,144 370,328 256,422 142,328 118,144" fill="url(#shieldGrad)" filter="url(#glow)" />
+  
+  <!-- Inner Shield Core -->
+  <polygon points="256,98 370,154 350,310 256,390 162,310 142,154" fill="#0b0d14" fill-opacity="0.92" stroke="#f43f5e" stroke-width="2" />
+  
+  <!-- Speed lines -->
+  <path d="M170 190 H342 M185 220 H327 M200 250 H312" stroke="#38bdf8" stroke-opacity="0.18" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Lightning Bolt -->
+  <path d="M276 130 L195 258 H254 L224 372 L320 236 H260 L292 130 Z" fill="url(#boltGrad)" filter="url(#glow)" />
+
+  <!-- Badge Text -->
+  <text x="256" y="468" text-anchor="middle" fill="#38bdf8" font-family="monospace" font-size="24" font-weight="bold" letter-spacing="4">XA OPTIMIZER</text>
+</svg>

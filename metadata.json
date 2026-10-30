@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix XA Optimizer v2",
+  "description": "Advanced Android gaming performance optimizer, system cache cleaner, Nubia Red Magic Game Space HUD, flexible CPU/GPU governor tuning, Shizuku \u0026 Root integration, and safe GL texture downscaler for maximum FPS stability.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

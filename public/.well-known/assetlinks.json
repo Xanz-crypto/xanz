@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.xa.optimizer.gaming",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:D6:0F:7B:D1:72:3B:86:14:04:78:EF:52:1B:04:6E:8B:19:71:59:7C:12:E6:6E:06:40:F7:3F:5E:0A"
+      ]
+    }
+  }
+]
